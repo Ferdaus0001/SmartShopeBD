@@ -4,6 +4,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:smartshopebd/LoginPage/LoginScreen.dart';
 
 import 'HomeScreen/HomeScreen.dart';
+import 'SplassScreen/SpalseScreen.dart';
 
 void main(){
   runApp(MyApp());
@@ -24,7 +25,7 @@ class _MyAppState extends State<MyApp> {
 
  return GetMaterialApp(
    debugShowCheckedModeBanner: false,
-   home:LoginScreen(),
+   home: SpalseScreen(),
  );
   }
 }
